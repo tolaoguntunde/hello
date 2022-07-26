@@ -84,6 +84,5 @@ import numpy as np
 from pandas import DataFrame, Series
 
 ser1 = Series([3,5,6,7,8,9,10])
-ser1
 
 print(ser1)
