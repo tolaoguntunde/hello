@@ -20,7 +20,7 @@
 # futuredate = now + timedelta(days=25)
 # print("Date after 25 days: " + str(futuredate))
 
-import numpy as np
+# import numpy as np
 # l1 = [3,1,8,7,9]
 # a1 = np.array(l1)
 # a1
@@ -40,5 +40,50 @@ import numpy as np
 # import statistics
 # print(statistics.mean([40,40]))
 
-import sys
-print("hello,my name is",sys.argv[1])
+# import sys
+# print("hello,my name is",sys.argv[1])
+
+
+# class Student:
+#     def __init__(self,name,house,patronus):
+#         if not name:
+#             raise ValueError('Missing name')
+#         if house not in['Gryffindor','Hufflepuff','Ravenclaw','Slytherin']:
+#             raise ValueError('Invalid house')
+#         self.name = name
+#         self.house = house
+#         self.patronus= patronus
+#     def __str__(self):
+#         return f"{self.name} from {self.house}"
+#     def charm(self):
+#         if self.patronus == "stag":
+#             return "stag"
+#         elif self.patronus =="otter":
+#             return "otter"
+#         else:
+#             return "none"
+# def main():
+#     student=get_student()
+#     print(student)
+    
+# def get_student():
+#     name = input("Name: ")
+#     house = input("House: ")
+#     patronus =input("Patronus: ")
+    
+#     return Student(name, house,patronus)
+
+# if __name__ == '__main__':
+    
+    
+    
+    
+
+import pandas as pd
+import numpy as np
+from pandas import DataFrame, Series
+
+ser1 = Series([3,5,6,7,8,9,10])
+ser1
+
+print(ser1)
